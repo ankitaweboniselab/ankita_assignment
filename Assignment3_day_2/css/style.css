@@ -278,6 +278,7 @@
 	.imageList ul li{
 
 		position:relative;
+		left:2px;
 		height:266px;
 		width:175px;
 		border-radius:5px;
