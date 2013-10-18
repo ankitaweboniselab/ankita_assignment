@@ -1,0 +1,217 @@
+html, body,div,h1,h2,h3,ul,li,img,p,form {
+
+	margin:0px;
+	padding:0px;
+	border:0;
+}
+
+#wrapper {
+
+	margin:0px auto;
+	width:940px;	
+	/*background-color:#527578;*/
+	border:1px solid black;
+
+}
+
+#header {
+
+	/*background-color:#527578 ;*/
+	height:150px;
+	
+
+}
+
+
+
+.headerTop {
+
+	display:table-cell;
+	vertical-align: middle;
+	width:940px;
+	height:120px;
+	background-color:#527578;
+} 
+
+
+.headerTop h1 {
+
+text-align:center;
+
+
+}
+
+.menu ul {
+
+	height:30px;
+	font-size:14px;
+	background-color: #ada692;
+	list-style-type:none;
+	border-top:1px solid black;
+
+
+}
+
+.menu ul li a {
+
+	text-decoration:none;
+	color:#ffffff;
+}
+
+.menu ul li {
+
+	float:left;
+	padding-top:6px;
+	padding-left:40px;
+
+
+}
+
+#content {
+
+	font-size:12px;
+	clear:both;
+	height:596px;
+	border-top:1px solid black;
+
+}
+
+.leftSideContent {
+
+	width:249px;
+	height:596px;
+	background-color: #84978F;
+	float:left;
+	border-right: 1px solid black;
+	
+
+
+} 
+
+
+.leftSideContent h2 {
+
+	padding-top:10px;
+	text-align:center;
+	font-size:20px;
+
+}
+
+.leftSideContent p {
+
+	line-height:24px;
+	text-align:justify;
+	padding:8px;
+
+}
+
+
+.rightSideContent {
+
+	width:690px;
+	height:596px;
+	background-color:#b3b1b2;
+	float:right;
+	
+
+
+}
+
+.rightSideContent img {
+
+	padding-top:10px;
+	float:left;
+	padding:10px;
+
+}
+
+.rightSideContent p{
+
+	padding-top:10px;
+	text-align:justify;
+	line-height:24px;
+	padding:10px;
+
+
+}
+
+.rightSideContent {
+
+	width:690px;
+	height:596px;
+	background-color:#b3b1b2;
+	float:right;
+
+
+}
+
+form {
+	margin:0px auto;
+	width:520px;
+	padding-top:100px;
+}
+
+form h2 {
+
+	text-align:center;
+
+}
+
+form .nameEmailBox {
+
+
+	height:30px;
+	width:440px;
+}
+
+
+form .submitButton {
+
+
+	margin-left:250px;
+	margin-top:10px;
+}
+
+
+#footer {
+
+	height:50px;
+	background-color:#ada692;
+	clear:both;
+	border-top:1px solid black;
+
+}
+
+.copyright {
+
+	padding:15px;
+	float:left;
+
+}
+
+.footerNavigation {
+
+	float:right;
+	font-size:12px;
+
+}
+
+.footerNavigation ul {
+
+	padding-top:15px;
+	list-style-type:none;
+
+}
+
+.footerNavigation ul li {
+
+	display:inline;
+	padding:15px;
+
+}
+
+.footerNavigation ul li a {
+
+	text-decoration:none;
+	color:#000000;
+}
