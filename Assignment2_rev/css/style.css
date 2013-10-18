@@ -1,7 +1,7 @@
-					html, body, div, span, applet, object, iframe,
+			html, body, div,class ,id, span, applet, object, iframe,
 			h1, h4, h5, h6, p, blockquote, pre,a,b,i,h2,h3,
 			 abbr, acronym, address, big, cite, code,s
-			del, dfn, em, img, ins, kbd, q, s, samp,
+			del, dfn, em, img, ins, q, s, samp,
 			small, strike, strong, sub, sup, tt, var, u, center,
 			dl, dt, dd, ol, ul, li,
 			fieldset, form, label, legend,
@@ -11,7 +11,7 @@
 			menu, nav, output, ruby, section, summary,
 			time, mark, audio, video {
 
-				margin: 0 ;
+				margin: 0px auto;
 				padding: 0;
 				border: 0;
 			}
@@ -42,303 +42,251 @@
 
 			#wrapper {
 
-
+				font-size:12px;
+				word-spacing:2px;
+				line-height:14px;
 			}
 
 			/****HEADER****/
 			
 			#header {
-
-
+				margin-bottom:34px;
 			}
 
 			.headerTop {
-
 				width:940px;
-				margin:0px auto;
-				
-			}
+				}
 			
-			.headerTop .logo {
-
+			.headerTop a.logo {
 				background-image:url(../images/logo.png);
 				width:256px;
 				height:69px;
 				float:left;
 				margin-top:9px;
 				margin-bottom:9px;
+			}
 
+			.headerTop a.logo {
+				text-indent:-400px;
 			}
 
 			.loginRegister {
-
 				float:right;
-				margin-top:14px;
+				margin-top:19px;
+				font-size:14px;
+				line-height:16px;
 			}
 
-
-
-			.loginRegister li {
-
-				
+			.loginRegister li {	
 				float:left;
-				padding-left:6px;
-
+				padding-left:15px;
 			}
 
 			.loginRegister  li a {
-
 				text-decoration:none;
 				color:#4965b0;
 			}
 
 			.loginRegister li a:hover {
-
 				color:#000000;
 			}
 
 			.loginRegister  li.loginStyle {
-
-			
 				border-right:1px solid #4965b0;
-				padding-right:6px;
-
+				padding-right:14px;
 			}
 
 			.loginRegister .clr {
-
-
 				float: none;
 				clear: both;
 			}
 
 			.clr {
-
 				clear:both;
 			}
 
 			
 			.headerBottom {
-			
-				
 				background-color:#3355aa;
 			}
 
 			.menu {
-			
 				width: 940px;
 				margin: 0px auto;
 				color: #fff;
+				font-size:14px;
 				line-height: 40px;
 				font-family:Georgia;
 			}
 
 			.menu .clr {
-			
 				float: none;
 				clear: both;
 			}
 
 			.menu  li {
-				
 				float: left;
-				padding-left: 17px;
-				padding-right: 17px;
-
 			}
 
 			.menu li:hover {
-				
 				background-color: #6699cc;
 			}
 
 			.menu  li a {
-
-				font-size: 15px;
+				font-size: 14px;
 				color: #fff;
 				display: block;
 				font-style: italic;
+				padding-left: 13px;
+				padding-right: 22px;
 				text-decoration:none;
+				word-spacing: 2px;
 			}
 
 			.menu li a:hover {
-
 				color:#000000;
 			}
 
 			/****CONTENT****/
 
 			#content {
-
 				margin:0px auto; 
 				width:940px;
-
 			}
 
 			/****TOP CONTENT SECTION****/
 
 			.topContentSection{
-
-				margin-top:35px;
-
+				margin-bottom:68px;
 			}
 
 			.leftContent {
-
 				float:left;
-				margin-right:38px;
-
-
-				}
+				margin-right:30px;
+			}
 
 			.middleContent {
-
 				width:220px;
 				float:left;
 				margin-right:35px;
 				margin-top:8px;
-
-
 			}
 
 			 h3.headingStyle {
-
 				color:#666666;
 				font-family:Arial;
 				font-size:16px;
 				border-bottom:3px solid #eebe00;
 				line-height: 40px;
+				margin-bottom:14px;
+				/*margin-top:5px;*/
 			}
 
 			 h3.headingColor {
-
 				color:#3355aa;
 			}
 
 
 			.middleContent p {
-
 				color:#666666;
 				font-size:13px;
 				font-family: Georgia;
 				line-height:20px;
 				text-align:left;
-				margin-top:18px;
-				margin-bottom:5px;
-
+				margin-bottom:8px;
 			}
 
 			.middleContent h3 a {
-
 				text-decoration:none;
 				color:#3355aa;
-
 			}
 
 			.middleContent h3 a:hover {
-
 				color:#000000;
 			}
 			
 			.rightContent {
-
 				width:220px;
 				margin-top:8px;
 				float:right;
 				font-family: Georgia;
 				font-size:13px;
-				line-height:20px;
+				line-height:18px;
 			}
 
 			.rightContent ul li {
-
 				border-bottom:1px solid #cccccc;
-				padding-bottom:8px;
-				margin-top:15px;
-
+				word-spacing:1px;
+				margin-bottom:11px;
 			}
 
 
 			.rightContent ul li a{
-
 				text-decoration:none;
 				color:#000000;
-
-
 			}
 
 			.rightContent ul li a:hover {
-
-
 				color:#3355aa;
-
 			}
 
 			.rightContent .announcementSender  {
-
-				padding-top:5px;
+				margin-bottom:8px;
 				color:#999999;
 				font-size:10px;
-		
-
+				display:block;
+				margin-top:8px;
 			}
 
 			.rightContent  .announcmentSenderStyle {
-
 				color:#000000;
-
 			}
 
 
 			.rightContent a.viewMore {
-
-				margin-top:15px;
+				/*margin-top:15px;*/
 				line-height:15px;
 				display:block;
 				font-size:13px;
 				font-family:Georgia;
 				text-decoration:none;
-				color:#3355aa;
-					
+				color:#3355aa;		
 			}
 
 			
 			/****MIDDLE CONTENT SECTION****/
 
 			.middleContentSection {
+				margin-bottom:40px;
 
-				margin-top:70px;
-
+				
 			}
 
 			.middleContentSection h2 {
-
 				font-family:Arial;
 				text-align:center;
 				font-size:28px;
+				line-height:30px;
 				color:#444444;
+				margin-bottom:30px;
 			}
 
 			.workSector {
-
-				margin-top:30px;
+				
 				text-align:center;
-
 			}
 
 			.workSector ul li{
-
 				height:266px;
 				width:175px;
 				border-radius:5px;
 				float:left;
-				margin:6px;
+				margin-right:12px;
+				margin-bottom:30px;
 				box-shadow:0px 0px 5px #cccccc ;
-				
 			}
 
 			ul li.clr {
-
 				float:none;
 				clear:both;
 				height:0;
@@ -349,218 +297,162 @@
 			}
 
 			.workSector ul li a {
-
 				text-decoration:none;
 				color:#3355aa;
 			}
 
 			.workSector ul li a:hover {
-
 				box-shadow: 0px 5px 5px #cccccc;
 				color:#000000;
 			}
 
 			.workSector ul li h3{
-
 				text-align:center;
 				padding:14px;
 				font-family: Georgia;
 				font-size:12px;
 				min-height:32px;
-
 			}
 
 			.workSector .imageBorder {
-
-				margin-top:24px;
+				
 			}
 
 			/****BOTTOM CONTENT SECTION****/
 
-			.bottomContent {
-
-				margin-top:40px;
-			}
+			.bottomContent {}
 
 			.bottomContent h2 {
-
 				font-family: Arial;
 				font-size:24px;
 				text-align:center;
 				color:#444444;
 				line-height:40px;
-
 			}
 
 			.bottomContent .mapStyle {
-
-				margin-top:8px;
+				
 				display:block;
 				font-family: Georgia;
 				font-size:18px;
 				text-align:center;
 				color:#666666;
 				line-height:22px;
-
+				margin-bottom:35px;
 			}
 
-			.bottomContent .worldMap  img {
-
-				margin: 40px 269px 40px 195px ;
+			.bottomContent .worldMap {
+				width: 570px;
+       			height: 365px;
+        		background: no-repeat url(../images/map.jpg);
+        		margin: 0 auto 15px auto;
 			}
 
-			.bottomContent .anchorTag {
-
-		
-				
-			}
-
-			.anchorTag .navButton {
-
+			.anchorTag {
 				float: right;
-				width: 60px;
-				padding-top: 5px;
-				padding-bottom: 5px;
-				box-shadow: 0px 0px 5px #cccccc;
-				color: #3355aa;
-
+        		width: 45px;
+        		padding: 5px 5px 5px 10px;
+        		border-top-left-radius: 5px;
+        		border-top-right-radius: 5px;
+        		box-shadow: 0 0 3px 0 #666666;
+        		font-style: italic;
 			}
 
-			.anchorTagContainer a {
-			
+			.anchorTag a {
 				color: #3355aa;
 				text-decoration:none;
-			
 			}
 			
-			.navButton a:hover {
-
+			.anchorTag a:hover {
 				color:#000000;
-			}
-
-			.anchorTagContainer {
-		
-				
-				text-align: center;
-				font-size: 14px;	
-				
 			}
 
 			/****FOOTER****/
 
 			#footer {
-
-		
 				background-image:url(../images/footerbackground.png);
 			}
 
-
-
 			.footerTop {
-
 			width:940px;
 			margin:0px auto;
-
 			}
 
 			.footerMenu {
-
 				float:left;
 				margin-top:15px;
+
 			}
 
-			.footerMenu li {
-
-				
+			.footerMenu li {	
 				float:left;
 				font-family:Georgia;
 				font-size:14px;
+				line-height:16px;
 				padding-right:6px;
 				padding-left:6px;
 				border-left: 1px solid #7e7e7e;
-
 			}
 
 			.footerMenu .selected a {
-
-				color:#ffffff;
-				
+				color:#ffffff;	
 			}
 
 			.footerMenu .selected {
-
 				border-left:none;
 				padding-left:0px;
-
 			}
 
 
 			.footerMenu li a {
-
 				text-decoration:none;
 				color:#7e7e7e;
 				text-shadow: 0px 0px 2px #000000;
-
 			}
 
 			.footerMenu li a:hover {
-
 				color:#ffffff;
 			}
 
 
 			.footerRightMenu {
-
 				float:right;
 				margin-top:15px;
 			}
 
-			.footerRightMenu li {
-
-				
+			.footerRightMenu li {	
 				float:left;
 				font-family:Georgia;
 				font-size:14px;
 				padding-right:6px;
 				padding-left:6px;
 				border-left: 1px solid #7e7e7e;
-
 			}
 
-
 			.footerRightMenu .selected {
-
 				border-left:none;
 				padding-left:0px;
-
 			}
 
 
 			.footerRightMenu li a {
-
 				text-decoration:none;
 				color:#7e7e7e;
 				text-shadow: 0px 0px 2px #000000;
-
 			}
 
 			.footerRightMenu li a:hover {
-
 				color:#ffffff;
 			}
 
 			.footerBottom {
-
 				width:940px;
 				margin:0px auto;
 				font-family:Georgia;
-				font-size:11px;
-
-				
+				font-size:11px;	
 			}
 
 			.footerBottom .footerBottomLeft{
-
 				float:left;
 				text-shadow: 0px 0px 2px #000000;
 				color:#7e7e7e;
@@ -568,72 +460,56 @@
 			}
 
 			.footerBottom .footerBottomRight {
-
-
 				float:right;
 				text-shadow: 0px 0px 2px #000000;
 				color:#7e7e7e;
 				margin-bottom:10px;
-			
 			}
 
 			.footerBottomRight  li {
-
 				float:left;
 				padding-right:8px;			
-
 			}
 			
 			.footerBottomRightStyle {
-
 				padding-top:3px;
 			}
 
 			.footerBottom .footerBottomRight li .facebook {
-
 				background-image:url(../images/facebook.png);
 				background-repeat: no-repeat;
 				display:block;
 				height:15px;
-				width:15px;
-						
+				width:15px;			
 			}
 
 			.footerBottom .footerBottomRight li .facebook:hover {
-
-				border:1px solid #cccccc;
+				box-shadow: 0px 1px 2px #0d141f;
 			}
 
 			.footerBottom .footerBottomRight li .twitter {
-
 				background-image:url(../images/twitter.png);
 				background-repeat:no-repeat;
 				display:block;
 				height:15px;
-				width:15px;
-				
+				width:15px;	
 			}
 
 			.footerBottom .footerBottomRight li .twitter:hover {
-
-				border:1px solid #cccccc;
-
+				box-shadow: 0px 1px 2px #0d141f;
 			}
 
 
 			.footerBottom .footerBottomRight li .linkedIn {
-
 				background-image:url(../images/linkedin.png);
 				background-repeat: no-repeat;
 				display:block;
 				height:15px;
-				width:15px;
-				
+				width:15px;	
 			}
 
 			.footerBottom .footerBottomRight li .linkedIn:hover {
-
-				border:1px solid #cccccc;
+				box-shadow: 0px 1px 2px #0d141f;
 			}
 
 
