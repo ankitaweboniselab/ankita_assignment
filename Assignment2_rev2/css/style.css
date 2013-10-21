@@ -14,6 +14,9 @@
 				margin: 0px auto;
 				padding: 0;
 				border: 0;
+				font-size:100%;
+				font:inherit;
+
 			}
 			/* HTML5 display-role reset for older browsers */
 			article, aside, details, figcaption, figure, 
@@ -174,6 +177,7 @@
 				border-bottom:3px solid #eebe00;
 				line-height: 40px;
 				margin-bottom:14px;
+				font-weight:bold;
 			}
 
 			 h3.headingColor {
@@ -261,6 +265,7 @@
 				line-height:30px;
 				color:#444444;
 				margin-bottom:30px;
+				font-weight:bold;
 			}
 
 			.workSector {
@@ -317,6 +322,7 @@
 				text-align:center;
 				color:#444444;
 				line-height:40px;
+				font-weight:bold;
 			}
 
 			.bottomContent .mapStyle {
