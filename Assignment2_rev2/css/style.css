@@ -236,7 +236,7 @@
 				display:block;
 				margin-top:8px;
 			}
-			
+
 			.rightContent a.viewMore {
 				line-height:15px;
 				display:block;
@@ -336,7 +336,6 @@
 			.bottomContent .worldMap {
 				width: 570px;
        			height: 365px;
-        		background: no-repeat url(../images/map.jpg);
         		margin: 0 auto 15px auto;
 			}
 
@@ -409,13 +408,14 @@
 
 			.footerRightMenu {
 				float:right;
-				margin-top:15px;
+				margin-top:13px;
 			}
 
 			.footerRightMenu li {	
 				float:left;
 				font-family:Georgia;
 				font-size:14px;
+				line-height:16px;
 				padding-right:6px;
 				padding-left:6px;
 				border-left: 1px solid #7e7e7e;
