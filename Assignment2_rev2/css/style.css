@@ -296,6 +296,8 @@
 			.workSector ul li a {
 				text-decoration:none;
 				color:#3355aa;
+				display: block;
+				padding:2px;
 			}
 
 			.workSector ul li a:hover {
@@ -309,7 +311,7 @@
 				font-family: Georgia;
 				font-size:12px;
 				line-height:14px;
-				min-height:32px;
+				min-height:30px;
 			}
 
 
