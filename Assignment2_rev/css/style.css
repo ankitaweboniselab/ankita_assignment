@@ -96,11 +96,6 @@
 				padding-right:14px;
 			}
 
-			.loginRegister .clr {
-				float: none;
-				clear: both;
-			}
-
 			.clr {
 				clear:both;
 			}
@@ -179,7 +174,6 @@
 				border-bottom:3px solid #eebe00;
 				line-height: 40px;
 				margin-bottom:14px;
-				/*margin-top:5px;*/
 			}
 
 			 h3.headingColor {
@@ -244,7 +238,6 @@
 
 
 			.rightContent a.viewMore {
-				/*margin-top:15px;*/
 				line-height:15px;
 				display:block;
 				font-size:13px;
@@ -257,9 +250,7 @@
 			/****MIDDLE CONTENT SECTION****/
 
 			.middleContentSection {
-				margin-bottom:40px;
-
-				
+				margin-bottom:40px;		
 			}
 
 			.middleContentSection h2 {
@@ -314,13 +305,9 @@
 				min-height:32px;
 			}
 
-			.workSector .imageBorder {
-				
-			}
 
 			/****BOTTOM CONTENT SECTION****/
 
-			.bottomContent {}
 
 			.bottomContent h2 {
 				font-family: Arial;
