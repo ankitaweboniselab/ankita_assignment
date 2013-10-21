@@ -75,7 +75,7 @@
 
 			.loginRegister {
 				float:right;
-				margin-top:19px;
+				margin-top:18px;
 				font-size:14px;
 				line-height:16px;
 			}
@@ -135,8 +135,8 @@
 				color: #fff;
 				display: block;
 				font-style: italic;
-				padding-left: 13px;
-				padding-right: 22px;
+				padding-left: 15px;
+				padding-right: 15px;
 				text-decoration:none;
 				word-spacing: 2px;
 			}
