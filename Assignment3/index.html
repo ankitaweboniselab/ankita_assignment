@@ -1,4 +1,4 @@
-<doctype html>
+<!DOCTYPE html>
 	<html>
 	<head>
 		<meta charset="UTF-8" />
@@ -8,22 +8,22 @@
 	<body>
 		<div id="wrapper">
 			<!--HEADER-->
-			<div id="header">
-				<div class="mainHeader">
+			<div id="headerContainer">
+				<div class="header">
 					<a href="#" class="logo">Langmart- The Transalation Marketplace</a>
 				<div class="headerRight">
 						<ul class="headerTop">
-							<li class="menuBorderStyle"><a href="#">Messages</a></li>
+							<li class="noBorder"><a href="#">Messages</a></li>
 							<li><a href="#">Help</a></li>
 							<li class="menuStyle"><a href="#">Logout</a></li>
 						</ul>
 						<div class="clr"></div>
-						<ul class="headerBottom">
-							<li class="dashboard"><a href="#">DASHBOARD</a></li>
-							<li class="jobs"><a href="#">JOBS</a></li>
-							<li class="transDir"><a href="#" class="selected">TRANSLATOR DIRECTORY</a></li>
-							<li class="langAssets"><a href="#">LANGUAGE ASSETS</a></li>
-							<li class="teams"><a href="#">TEAMS</a>
+						<ul class="mainNavigation">
+							<li><a href="#"><i class="dashboard"></i>DASHBOARD</a></li>
+							<li><a href="#"><i class="jobs"></i>JOBS</a></li>
+							<li><a href="#" class="selected"><i class="transDir"></i>TRANSLATOR DIRECTORY</a></li>
+							<li><a href="#"><i class="langAssets"></i>LANGUAGE ASSETS</a></li>
+							<li><a href="#"><i class="teams"></i>TEAMS</a></li>
 						</ul>						
 				</div>
 				<div class="clr"></div>
@@ -49,12 +49,12 @@
 							<span class="location">From Albany, Newyork</span>
 							<h3>I am a Swedish Translator</h3>
 							<ul class="infoList">
-								<li><span class="titleStyle">Language Pairs:</span> <span class="infoStyle"
-									>English &amp; French</span></li>
-								<li><span class="titleStyle">Domain: </span><span class="infoStyle"
-									>Agriculture</span></li>
-								<li><span class="titleStyle">Years Of Experience: </span><span class="infoStyle"
-									> 7 Years</span></li>
+								<li><span class="titleStyle">Language Pairs:</span>
+									English &amp; French
+								<li><span class="titleStyle">Domain: </span>
+									Agriculture</li>
+								<li><span class="titleStyle">Years Of Experience: </span>
+									7 Years</li>
 							</ul>
 						</div>
 						<div class="rightTopContent">
@@ -75,25 +75,25 @@
 					</div>	
 					<div class="middleContent">
 						<div class="leftMainContent">	
-							<ul class="topMainContent">
-								<li><span class="address">400 S Hill St, Los Angeles, Albany 90013, Newyork</span></li>
-								<li><span class="phone">+91 400 528 2569</span><span class="fax">+91 400 528 2569</span></li>
-								<li><span class="mail"><a href="#">Anthony.wastson&#64;yopmail.com</a></span><span class="email"><a href="#">http://langmart.com</a></span></li>
+							<ul class="personalDetails">
+								<li><span class="address"><i></i>400 S Hill St, Los Angeles, Albany 90013, Newyork</span></li>
+								<li><span class="phone"><i></i>+91 400 528 2569</span><span class="fax"><i></i>+91 400 528 2569</span></li>
+								<li><span class="mail"><i></i><a href="#">Anthony.wastson&#64;yopmail.com</a></span><span class="url"><a href="#"><i></i>http://langmart.com</a></span></li>
 							</ul>
 							<div class="middleMainTopContent">
-								<h2>Job History</h2>
+								<h2><i></i>Job History</h2>
 									<ul class="jobHistory">
 										<li><h3>Project Co-ordinator</h3> <span class="company">World language advertising company,London</span> 
 										<span class="month">October 2008 - Present(2 years 8 months)</span>
-										<span class="details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean arcu turpis, ullamcorper consequat mollis sit amet, imperdiet cursus massa. Proin mollis lectus in nibh scelerisque sed imperdiet augue feugiat.</span>
+										<p class="details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean arcu turpis, ullamcorper consequat mollis sit amet, imperdiet cursus massa. Proin mollis lectus in nibh scelerisque sed imperdiet augue feugiat.</p>
 										</li>
 										<li><h3>Project Co-ordinator</h3> <span class="company">World language advertising company,London</span> 
 										<span class="month">October 2008 - Present(2 years 8 months)</span>
-										<span class="details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean arcu turpis, ullamcorper consequat mollis sit amet, imperdiet cursus massa. Proin mollis lectus in nibh scelerisque sed imperdiet augue feugiat.</span></li>
+										<p class="details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean arcu turpis, ullamcorper consequat mollis sit amet, imperdiet cursus massa. Proin mollis lectus in nibh scelerisque sed imperdiet augue feugiat.</p></li>
 									</ul>
 							</div>
 							<div class="middleMainBottomContent">
-								<h2>Education</h2>
+								<h2><i></i>Education</h2>
 									<ul class="educationUniversity">
 										<li class="university">
 											<h3>University of Whales</h3>
@@ -219,20 +219,94 @@
 							</div>	
 						</div>
 				<!--RIGHT CONTNENT-->
-					<div class="rightContent">
-						<div class="rightMainContent">
-							<div class="messageTop">
-								<a class="messages" href="#">MESSAGES</a>
-								<!--<div class="new">
-									<span class="newMsg">NEW!</span>
-									<span class="newMgsImg">2</span>
-								</div>
-								-->
-								
+				<div class="rightContent">
+					<div class="rightSideMainContent">
+						<div class="messageHeader">
+							<span class="messageStyle"><i></i>MESSAGES</span>
+							<div class="clr"></div>
+								<div class="rightSideHeader">
+								<span class="new">NEW!</span>
+								<span class="msgCount">2</span>
+							</div>
 						</div>
+						</div>
+					</div>
+						<!--<div class="messageHeader">
+							<span class="messageStyle">MESSAGES</span>
+							<div class="rightSideHeader">
+								<span class="new">NEW!</span>
+								<span class="msgCount">2</span>
+							</div>
+						</div class="clr"></div>
 						</div>
 						<div class="clr"></div>
-					</div>
+					</div>-->
+					<!--<div class="message">
+                                        <div class="messageHead">
+                                                <h2>Messages </h2>
+                                                <div class="newMessage">2</div>
+                                                <span>New!</span>
+                                                <div class="clr"></div>
+                                        </div>
+
+                                        <ul class="mainMessage">
+                                                <li> <span class="day">TODAY</span>
+                                                        <div class="clr"></div>
+                                                        <div class="seperator"></div>
+                                                        <ul>
+                                                                <li>
+                                                                        <a href="#" class="pic"></a>
+                                                                        <a href="#" class="name">John Galt</a><div class="clr"></div>
+                                                                        <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</span>
+                                                                        <span class="time">2 hrs ago</span>
+                                                                </li>
+                                                                <li>
+                                                                        <a href="#" class="pic"></a>
+                                                                        <a href="#" class="name">John Galt</a><div class="clr"></div>
+                                                                        <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</span>
+                                                                        <span class="time">2 hrs ago</span>
+                                                                </li>
+                                                                <li class="clr"></li>
+                                                        </ul>
+                                                </li>
+
+                                                <li> <span class="day">15 Dec 2012</span>
+                                                        <div class="clr"></div>
+                                                        <div class="seperator"></div>
+                                                        <ul>
+                                                                <li>
+                                                                        <a href="#" class="pic"></a>
+                                                                        <a href="#" class="name">John Galt</a><div class="clr"></div>
+                                                                        <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</span>
+                                                                        <span class="time">2 hrs ago</span>
+                                                                </li>
+                                                                <li>
+                                                                        <a href="#" class="pic"></a>
+                                                                        <a href="#" class="name">John Galt</a><div class="clr"></div>
+                                                                        <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</span>
+                                                                        <span class="time">2 hrs ago</span>
+                                                                </li>
+                                                                <li>
+                                                                        <a href="#" class="pic"></a>
+                                                                        <a href="#" class="name">John Galt</a><div class="clr"></div>
+                                                                        <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</span>
+                                                                        <span class="time">2 hrs ago</span>
+                                                                </li>
+                                                                <li class="clr"></li>
+                                                        </ul>
+                                                </li>
+                                                <li class="clr"></li>
+                                        </ul>
+                                </div>
+                                <div class="clr"></div>-->
+                        <!--</div>-->
+                <!--</div>-->
+
+								
+						<!--</div>
+						</div>
+						<div class="clr"></div>
+					</div>-->
 					<div class="clr"></div>
 			</div>
 			<div id="footer">
