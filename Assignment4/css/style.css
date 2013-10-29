@@ -56,7 +56,7 @@
 			#headerContainer {
         		background-color: #d6e4ff;
         		border-bottom: 1px solid #bbccff;
-        		margin-bottom: 40px;
+        		margin-bottom: 39px;
 			}
 
 			#headerContainer .mainHeaderContainer {
@@ -218,7 +218,7 @@
 			}
 
 			.leftContent .sims {
-				padding: 5px 55px 14px 35px;
+				padding: 5px 55px 17px 35px;
 				border-bottom: 1px solid #e5e5ee;
 				margin-bottom: 19px;
 				max-width:120px;
@@ -244,7 +244,6 @@
 				color: #000000;
 				font-weight: bold;
 				line-height: 18px;
-				margin:0 0 1px 0;
 			} 
 
 			.leftContent .deanMottoLink li.info {
@@ -255,7 +254,7 @@
 			}
 
 			.leftContent .deanMottoLink li.marginAdjust {
-				margin:0 0 22px 0;
+				margin:0 0 24px 0;
 			}
 
 			.leftContent .deanMottoLink li a{
@@ -378,7 +377,7 @@
 				width:460px;
 				float:left
 			}
-			
+
 			.headingStyle {
 				max-width: 460px;
 				font-size:14px;
