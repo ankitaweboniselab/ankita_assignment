@@ -53,18 +53,18 @@
         		clear: both;
 			}
 
-			#headerContainer {
+			#header {
         		background-color: #d6e4ff;
         		border-bottom: 1px solid #bbccff;
         		margin-bottom: 39px;
 			}
 
-			#headerContainer .mainHeaderContainer {
+			#header .headerContainer {
         		width: 990px;
         		margin: 0px auto;
 			}
 
-			#headerContainer .mainHeaderContainer .logo {
+			#header .headerContainer .logo {
         		width: 136px;
         		height: 35px;
         		background: url(../images/icons.png) -254px 1px no-repeat;
@@ -73,18 +73,18 @@
         		text-indent: -5000px;
 			}
 
-			.headerCenter {
+			.headerMiddleContent {
         		float: left;
         		width: 462px;
         		margin: 12px 119px 0px 0;
 			}
 
-			.headerCenter .countries {
+			.headerMiddleContent .countries {
         		margin-bottom: 6px;
         		max-width: 462px;
 			}
 			
-			.headerCenter .countries li{
+			.headerMiddleContent .countries li{
         		float: left;
         		font-weight: bold;
         		color: #2255aa;
@@ -94,28 +94,28 @@
         		text-shadow: 0px 1px 0px #ffffff;
 			}
 			
-			.headerCenter .countries li a {
+			.headerMiddleContent .countries li a {
 				color: #2255aa;
 				text-decoration: none;	
 			}
 
-			.headerCenter .countries li a:hover {
+			.headerMiddleContent .countries li a:hover {
 				color: #000000;
 			}
 
-			.headerCenter .countries .clr{
+			.headerMiddleContent .countries .clr{
         		float: none;
         		clear: both;
 			}
 
-			.headerCenter form .searchField{
+			.headerMiddleContent form .searchField{
         		width: 369px;
         		height: 28px;
         		border: 1px solid #d2d5e9;
         		box-shadow: inset 0px 0px 2px #000000;
 			}
 
-			.headerCenter form .searchBtn{
+			.headerMiddleContent form .searchBtn{
 				font-size: 14px;
         		line-height: 16px;
         		font-weight: bold;
@@ -128,79 +128,79 @@
         		background: #3c69b4 linear-gradient(rgba(255,255,255,0.2) 20%, rgba(255,255,255,0.0) 80%);	
 			}
 
-			.headerRightSide{
+			.headerRightContent {
         		float: left;
         		margin-top: 40px;
 			}
 
-			.headerRightSide .loginRegister {
+			.headerRightContent .loginRegister {
 				float: left;
 				margin: 0px 9px 0px 0px;
 			}
 
-			.headerRightSide .loginRegister li {
+			.headerRightContent .loginRegister li {
         		float: left;
         		font-size: 14px;
         		line-height: 16px;
         		font-weight:bold;
         		color: #2255aa;
         		text-shadow: 0px 1px 0px #ffffff;
-        		margin: 0px  6px 0px 5px;	
+        		margin: 0  11px 0 0;	
 			}
 
-			.headerRightSide .loginRegister li a{
+			.headerRightContent .loginRegister li a{
 				color: #2255aa;
 				text-decoration: none;
 			}
 
-			.headerRightSide .loginRegister li a:hover {
+			.headerRightContent .loginRegister li a:hover {
 				color: #000000;
 			 }
 
-			.headerRightSide .loginRegister .clr{
+			.headerRightContent .loginRegister .clr{
         		float: none;
         		clear: both;
 			}
 
-			.headerRightSide .socialNetIcons {
+			.headerRightContent .socialNetIcons {
         		float: right;
 			}
 
-			.headerRightSide .socialNetIcons li {
+			.headerRightContent .socialNetIcons li {
         		float: left;
         		margin: 0 0 0 2px;
 			}
 
-			.headerRightSide .socialNetIcons li a{
+			.headerRightContent .socialNetIcons li a{
         		display: block;
         	}
 			
-			.headerRightSide .socialNetIcons li a.twitter{
+			.headerRightContent .socialNetIcons li a.twitter{
         		background: no-repeat url(../images/icons.png) -200px  -1px;
 				height: 22px;
 				width: 22px;	
 			}
 
-			.headerRightSide .socialNetIcons li a.twitter:hover{
+			.headerRightContent .socialNetIcons li a.twitter:hover{
 				background: no-repeat url(../images/icons.png) -422px  -1px;
 				height: 22px;
 				width: 22px;
 			}
 
 
-			.headerRightSide .socialNetIcons li a.facebook{
+			.headerRightContent .socialNetIcons li a.facebook{
         		background: no-repeat url(../images/icons.png) -228px -1px;
 				height: 22px;
 				width: 22px;
 			}
 
-			.headerRightSide .socialNetIcons li a.facebook:hover{
+			.headerRightContent .socialNetIcons li a.facebook:hover{
 				background: no-repeat url(../images/icons.png) -391px  -1px;
 				height: 22px;
 				width: 22px;
 			}
 
-			.headerRightSide .socialNetIcons .clr{
+			.headerRightContent .socialNetIcons .clr{
         		float: none;
         		clear: both;
 			}
@@ -218,63 +218,87 @@
 			}
 
 			.leftContent .sims {
-				padding: 5px 55px 17px 35px;
 				border-bottom: 1px solid #e5e5ee;
 				margin-bottom: 19px;
-				max-width:120px;
-				max-height:155px;
 			}
 
-			.leftContent .deanMottoLink {
+			.leftContent .sims img {
+				margin: 5px auto 17px auto;
+				display:block;
+				max-width:180px;
+				max-height:200px;
+			}
+
+			.leftContent .collegeDetails {
 				float: left;
 				border-bottom: 1px solid #e5e5ee;
 			}
 
-			.leftContent .deanMottoLink li.instituteName {
+			.leftContent .collegeDetails .instituteName {
 				font-weight: bold;
 				color: #2255aa;
 				line-height:18px;
 				text-align:left;
 				max-width:209px;
+				display:block;
 				margin-bottom:55px;
 			}
 
-			.leftContent .deanMottoLink li.heading {
+			.leftContent .collegeDetails .instituteName a {
+				text-decoration:none;
+				color: #2255aa;
+			}
+
+			.leftContent .collegeDetails .instituteName a:hover {
+				color:#000000;
+			}
+
+			.leftContent .collegeDetails .heading {
 				max-width:209px;
 				color: #000000;
 				font-weight: bold;
 				line-height: 18px;
 			} 
 
-			.leftContent .deanMottoLink li.info {
+			.leftContent .collegeDetails .info {
 				max-width:209px;
 				color: #2255aa;
 				line-height: 18px;
 				margin: 0 0 11px 0;
+				display:block;
 			}
 
-			.leftContent .deanMottoLink li.marginAdjust {
+			.leftContent .collegeDetails .info a {
+				color:#2255aa;
+				text-decoration:none;
+			}
+
+			.leftContent .collegeDetails .info a:hover {
+				color:#000000;
+			}
+
+			.leftContent .collegeDetails .marginAdjust {
 				margin:0 0 24px 0;
 			}
 
-			.leftContent .deanMottoLink li a{
+			.leftContent .collegeDetails li a{
 				color: #2255aa;
 				text-decoration: none;
 			}
 
-			.leftContent .deanMottoLink li a:hover {
+			.leftContent .collegeDetails li a:hover {
 				color: #000000;
 			}
 
-			.leftContent .deanMottoLink li.mottoDetails {
-				max-width:209px;	
+			.leftContent .collegeDetails p.mottoDetails {
+				max-width:205px;	
 				color: #959595;
-				text-align: left;
+				font-weight:normal;
 				line-height: 18px;
 				margin: 0 0 10px 0;
 			}
 
-			.leftContent .deanMottoLink li .clr {
+			.leftContent .collegeDetails li .clr {
 				float: none;
 				clear: both;
 				border: none;
@@ -289,23 +313,27 @@
 
 			.leftContent .leftSideList li{
        			border-bottom: 1px solid #e5e5ee;
-        		color: #2255aa; 
-        		max-width:210px;
+        		color: #2255aa; 	
        			font-weight: bold;
         	}
 
 			.leftContent .leftSideList li a{
         		display: block;
-        		padding: 8px 0 8px 0;
+        		padding: 6px 0 6px 0;
+        		max-width:210px;
         		text-decoration:none;
         		color:#2255aa;
+			}
+
+			.leftContent .leftSideList li a span {
+				line-height:18px;
 			}
 
 			.leftContent .leftSideList li a:hover {
 				color: #000000;
 			}
 
-			.leftContent .leftSideList li:hover i.arrow{
+			.leftContent .leftSideList li:hover .arrow{
 				background: url(../images/icons.png) -445px -2px no-repeat;
 			}
 
@@ -313,7 +341,7 @@
         		float: left;
         		height: 15px;
         		width: 15px;
-        		margin: 0 5px 0 0;
+        		margin: 0 5px 0 3px;
 			}
 
 	 		.leftContent .leftSideList li a i.overview {
@@ -365,10 +393,11 @@
         		background: url(../images/icons.png) -180px -1px no-repeat;
 			}
 
- 			.leftContent .leftSideList li a i.arrow{
+ 			.leftContent .leftSideList li a .arrow{
         		float: right;
         		height: 15px;
         		width: 15px;
+        		margin:0 5px 0 0;
         		background: #ccc;
        			background: no-repeat url(../images/icons.png) -462px -3px;
 			}
@@ -379,15 +408,13 @@
 			}
 
 			.headingStyle {
-				max-width: 460px;
 				font-size:14px;
 				line-height: 18px;
 				color: #000000;
 				font-weight: bold;
-				background: #ccddff url(../images/borderImage.png) bottom;
-				background-repeat: repeat-x;
-				padding: 5px 250px 10px 10px;
-				margin: 0 0 6px 0;
+				background: #ccddff url(../images/icons.png) bottom;
+				padding: 6px 0 6px 10px;
+				margin: 0 0 11px 0;
 				display:block;
 			}
 
@@ -419,36 +446,33 @@
 				border-left: 1px solid #e5e5ee;
 			}
 
-			.rightContent .rightMainContent {
-				margin: 0 0 0 17px;
+			.rightContent .collegeList {
+				margin: 0 0 0 23px;
 			}
 
-			.rightContent .rightMainContent .headingStyle {
-				padding: 5px 110px 10px 10px;
-			}
-
-			.rightContent .rightMainContent .rightListStyle li {
+			.rightContent .collegeList .rightListStyle li {
 				margin: 0 0 9px 0 ;
 			}
 
-			.rightContent .rightMainContent .rightListStyle li a {
+			.rightContent .collegeList .rightListStyle li a {
 				display:block;
 				text-decoration:none;
 			}
 
-			.rightContent .rightMainContent .rightListStyle li a img {
+			.rightContent .collegeList .rightListStyle li a .imageSpan {
 				border: 1px solid #e5e5ee;
 				float:left;
 				height:35px;
 				width:35px;
 				margin: 0 8px 0 0;
+				display:block;
 			}
 
-			.rightContent .rightMainContent .rightListStyle li a:hover img {
+			.rightContent .collegeList .rightListStyle li a:hover .imageSpan {
 				border: 1px solid #2255aa;
 			}
 
-			.rightContent .rightMainContent .rightListStyle li  a span {
+			.rightContent .collegeList .rightListStyle li  a span {
 				line-height:18px;
 				color:#2255aa;
 				text-align:left;
@@ -456,15 +480,15 @@
 				max-width:282px;	
 			}
 
-			.rightContent .rightMainContent .rightListStyle li a {
+			.rightContent .collegeList .rightListStyle li a {
 				text-decoration:none;
 			}
 
-			.rightContent .rightMainContent .rightListStyle li a:hover span {
+			.rightContent .collegeList .rightListStyle li a:hover span {
 				color: #000000;
 			}
 
-			.rightContent .rightMainContent .rightListStyle .clr {
+			.rightContent .collegeList .rightListStyle .clr {
 				float:none;
 				clear:both;
 			}
