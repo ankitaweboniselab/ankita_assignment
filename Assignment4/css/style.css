@@ -125,7 +125,7 @@
         		text-shadow: 0px 1px 0px #0066cc;
         		border: 1px solid #2255aa;
         		margin: 0 0 0 -4px;
-        		background: #0077dd linear-gradient(rgba(255,255,255,0.2) 20%, rgba(255,255,255,0.0) 80%);	
+        		background: #3c69b4 linear-gradient(rgba(255,255,255,0.2) 20%, rgba(255,255,255,0.0) 80%);	
 			}
 
 			.headerRightSide{
@@ -394,7 +394,7 @@
 
 			.middleContent .gallery li {
 				float: left;
-				margin: 0 8px 5px 0;
+				margin: 0 7px 5px 0;
 			}
 
 			.middleContent .gallery .clr {
