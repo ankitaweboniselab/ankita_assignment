@@ -181,8 +181,21 @@
 				width: 22px;	
 			}
 
+			.headerRightSide .socialNetIcons li a.twitter:hover{
+				background: no-repeat url(../images/icons.png) -422px  -1px;
+				height: 22px;
+				width: 22px;
+			}
+
+
 			.headerRightSide .socialNetIcons li a.facebook{
         		background: no-repeat url(../images/icons.png) -228px -1px;
+				height: 22px;
+				width: 22px;
+			}
+
+			.headerRightSide .socialNetIcons li a.facebook:hover{
+				background: no-repeat url(../images/icons.png) -390px  -1px;
 				height: 22px;
 				width: 22px;
 			}
@@ -289,6 +302,10 @@
 				color: #000000;
 			}
 
+			.leftContent .leftSideList li:hover i.arrow{
+				background: url(../images/icons.png) -445px -2px no-repeat;
+			}
+
 			.leftContent .leftSideList li a i{
         		float: left;
         		height: 15px;
@@ -350,7 +367,7 @@
         		height: 15px;
         		width: 15px;
         		background: #ccc;
-       			background: no-repeat url(../images/arrow.png) 0px -4px;
+       			background: no-repeat url(../images/icons.png) -462px -3px;
 			}
 
 			#content .middleContent {
