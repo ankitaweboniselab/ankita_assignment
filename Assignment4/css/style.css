@@ -80,7 +80,7 @@
 			}
 
 			.headerCenter .countries {
-        		margin-bottom: 7px;
+        		margin-bottom: 6px;
         		max-width: 462px;
 			}
 			
@@ -375,12 +375,12 @@
 			}
 
 			#content .middleContent {
-				width:459px;
+				width:460px;
 				float:left
 			}
 
 			.headingStyle {
-				max-width: 459px;
+				max-width: 460px;
 				font-size:14px;
 				line-height: 18px;
 				color: #000000;
@@ -394,7 +394,7 @@
 
 			.middleContent .gallery li {
 				float: left;
-				margin: 0 7px 5px 0;
+				margin: 0 8px 5px 0;
 			}
 
 			.middleContent .gallery .clr {
@@ -415,13 +415,13 @@
 			}
 
 			#content .rightContent {
-				width:282px;
+				width:283px;
 				float:right;
 				border-left: 1px solid #e5e5ee;
 			}
 
 			.rightContent .rightMainContent {
-				margin: 0 0 0 20px;
+				margin: 0 0 0 17px;
 			}
 
 			.rightContent .rightMainContent .headingStyle {
