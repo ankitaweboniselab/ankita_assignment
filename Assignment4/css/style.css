@@ -383,7 +383,7 @@
 				font-weight: bold;
 				background: #ccddff url(../images/borderImage.png) bottom;
 				background-repeat: repeat-x;
-				padding: 10px 250px 10px 10px;
+				padding: 5px 250px 10px 10px;
 				margin: 0 0 10px 0;
 				display:block;
 			}
@@ -421,7 +421,7 @@
 			}
 
 			.rightContent .rightMainContent .headingStyle {
-				padding: 10px 110px 10px 10px;
+				padding: 5px 110px 10px 10px;
 			}
 
 			.rightContent .rightMainContent .rightListStyle li {
