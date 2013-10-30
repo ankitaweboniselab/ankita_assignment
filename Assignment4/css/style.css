@@ -275,6 +275,7 @@
        			border-bottom: 1px solid #e5e5ee;
         		color: #2255aa; 
         		max-width:210px;
+        		word-wrap:break-word;
        			font-weight: bold;
         	}
 

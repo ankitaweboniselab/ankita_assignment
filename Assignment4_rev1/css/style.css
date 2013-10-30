@@ -463,7 +463,7 @@
 				border: 1px solid #e5e5ee;
 				float:left;
 				height:35px;
-				width:35px;
+				width:34px;
 				margin: 0 8px 0 0;
 				display:block;
 			}
@@ -477,7 +477,13 @@
 				color:#2255aa;
 				text-align:left;
 				text-decoration:none;
-				max-width:282px;	
+			}
+
+			.rightContent .collegeList .rightListStyle li  a span img {
+			 max-width:34px;
+			 max-height:35px;
+			 margin:0px auto;
+			 display:block;
 			}
 
 			.rightContent .collegeList .rightListStyle li a {
