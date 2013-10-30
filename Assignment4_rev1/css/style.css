@@ -1,0 +1,494 @@
+			html, body, div,class ,id, span, applet, object, iframe,
+			h1, h4, h5, h6, p, blockquote, pre,a,b,i,h2,
+			 abbr, acronym, address, big, cite, code,s
+			del, dfn, em, img, ins, q, s, samp,
+			small, strike, strong, sub, sup, tt, var, u, center,
+			dl, dt, dd, ol, ul, li,
+			fieldset, form, label, legend,
+			table, caption, tbody, tfoot, thead, tr, th, td,
+			article, aside, canvas, details, embed, 
+			figure, figcaption, footer, header, hgroup, 
+			menu, nav, output, ruby, section, summary,
+			time, mark, audio, video {
+
+				margin: 0px auto;
+				padding: 0;
+				border: 0;
+				font-size:100%;
+				font:inherit;
+			}
+			/* HTML5 display-role reset for older browsers */
+			article, aside, details, figcaption, figure, 
+			footer, header, hgroup, menu, nav, section {
+				display: block;
+			}
+			
+			body {
+				font-family:Arial;
+				font-size:12px;
+				line-height:14px;
+			}
+
+			ol, ul {
+				list-style: none;
+			}
+
+			blockquote, q {
+				quotes: none;
+			}
+
+			blockquote:before, blockquote:after,
+			q:before, q:after {
+				content: '';
+				content: none;
+			}
+
+			table {
+				border-collapse: collapse;
+				border-spacing: 0;
+			}
+
+			.clr {
+        		float: none;
+        		clear: both;
+			}
+
+			#header {
+        		background-color: #d6e4ff;
+        		border-bottom: 1px solid #bbccff;
+        		margin-bottom: 39px;
+			}
+
+			#header .headerContainer {
+        		width: 990px;
+        		margin: 0px auto;
+			}
+
+			#header .headerContainer .logo {
+        		width: 136px;
+        		height: 35px;
+        		background: url(../images/icons.png) -254px 1px no-repeat;
+        		float: left;
+        		margin: 20px 94px 20px 0;
+        		text-indent: -5000px;
+			}
+
+			.headerMiddleContent {
+        		float: left;
+        		width: 462px;
+        		margin: 12px 119px 0px 0;
+			}
+
+			.headerMiddleContent .countries {
+        		margin-bottom: 6px;
+        		max-width: 462px;
+			}
+			
+			.headerMiddleContent .countries li{
+        		float: left;
+        		font-weight: bold;
+        		color: #2255aa;
+        		font-size: 14px;
+        		line-height: 16px;
+        		margin: 0 16px 0 0;
+        		text-shadow: 0px 1px 0px #ffffff;
+			}
+			
+			.headerMiddleContent .countries li a {
+				color: #2255aa;
+				text-decoration: none;	
+			}
+
+			.headerMiddleContent .countries li a:hover {
+				color: #000000;
+			}
+
+			.headerMiddleContent .countries .clr{
+        		float: none;
+        		clear: both;
+			}
+
+			.headerMiddleContent form .searchField{
+        		width: 369px;
+        		height: 28px;
+        		border: 1px solid #d2d5e9;
+        		box-shadow: inset 0px 0px 2px #000000;
+			}
+
+			.headerMiddleContent form .searchBtn{
+				font-size: 14px;
+        		line-height: 16px;
+        		font-weight: bold;
+        		padding: 6px 20px 6px 20px;
+        		box-shadow: inset 0px 0px 1px #0077dd;
+        		color: #ffffff;
+        		text-shadow: 0px 1px 0px #0066cc;
+        		border: 1px solid #2255aa;
+        		margin: 0 0 0 -4px;
+        		background: #3c69b4 linear-gradient(rgba(255,255,255,0.2) 20%, rgba(255,255,255,0.0) 80%);	
+			}
+
+			.headerRightContent {
+        		float: left;
+        		margin-top: 40px;
+			}
+
+			.headerRightContent .loginRegister {
+				float: left;
+				margin: 0px 9px 0px 0px;
+			}
+
+			.headerRightContent .loginRegister li {
+        		float: left;
+        		font-size: 14px;
+        		line-height: 16px;
+        		font-weight:bold;
+        		color: #2255aa;
+        		text-shadow: 0px 1px 0px #ffffff;
+        		margin: 0  11px 0 0;	
+			}
+
+			.headerRightContent .loginRegister li a{
+				color: #2255aa;
+				text-decoration: none;
+			}
+
+			.headerRightContent .loginRegister li a:hover {
+				color: #000000;
+			 }
+
+			.headerRightContent .loginRegister .clr{
+        		float: none;
+        		clear: both;
+			}
+
+			.headerRightContent .socialNetIcons {
+        		float: right;
+			}
+
+			.headerRightContent .socialNetIcons li {
+        		float: left;
+        		margin: 0 0 0 2px;
+			}
+
+			.headerRightContent .socialNetIcons li a{
+        		display: block;
+        	}
+			
+			.headerRightContent .socialNetIcons li a.twitter{
+        		background: no-repeat url(../images/icons.png) -200px  -1px;
+				height: 22px;
+				width: 22px;	
+			}
+
+			.headerRightContent .socialNetIcons li a.twitter:hover{
+				background: no-repeat url(../images/icons.png) -422px  -1px;
+				height: 22px;
+				width: 22px;
+			}
+
+
+			.headerRightContent .socialNetIcons li a.facebook{
+        		background: no-repeat url(../images/icons.png) -228px -1px;
+				height: 22px;
+				width: 22px;
+			}
+
+			.headerRightContent .socialNetIcons li a.facebook:hover{
+				background: no-repeat url(../images/icons.png) -391px  -1px;
+				height: 22px;
+				width: 22px;
+			}
+
+			.headerRightContent .socialNetIcons .clr{
+        		float: none;
+        		clear: both;
+			}
+
+			#content {
+				width: 990px;
+				margin: 0px auto;
+			}
+
+			#content .leftContent{
+				float: left;
+				width: 210px;
+				border-right: 1px solid #e5e5ee;
+				margin: 0 18px 0 0;
+			}
+
+			.leftContent .sims {
+				border-bottom: 1px solid #e5e5ee;
+				margin-bottom: 19px;
+			}
+
+			.leftContent .sims img {
+				margin: 5px auto 17px auto;
+				display:block;
+				max-width:180px;
+				max-height:200px;
+			}
+
+			.leftContent .collegeDetails {
+				float: left;
+				border-bottom: 1px solid #e5e5ee;
+			}
+
+			.leftContent .collegeDetails .instituteName {
+				font-weight: bold;
+				color: #2255aa;
+				line-height:18px;
+				text-align:left;
+				max-width:209px;
+				display:block;
+				margin-bottom:55px;
+			}
+
+			.leftContent .collegeDetails .instituteName a {
+				text-decoration:none;
+				color: #2255aa;
+			}
+
+			.leftContent .collegeDetails .instituteName a:hover {
+				color:#000000;
+			}
+
+			.leftContent .collegeDetails .heading {
+				max-width:209px;
+				color: #000000;
+				font-weight: bold;
+				line-height: 18px;
+			} 
+
+			.leftContent .collegeDetails .info {
+				max-width:209px;
+				color: #2255aa;
+				line-height: 18px;
+				margin: 0 0 11px 0;
+				display:block;
+			}
+
+			.leftContent .collegeDetails .info a {
+				color:#2255aa;
+				text-decoration:none;
+			}
+
+			.leftContent .collegeDetails .info a:hover {
+				color:#000000;
+			}
+
+			.leftContent .collegeDetails .marginAdjust {
+				margin:0 0 24px 0;
+			}
+
+			.leftContent .collegeDetails li a{
+				color: #2255aa;
+				text-decoration: none;
+			}
+
+			.leftContent .collegeDetails li a:hover {
+				color: #000000;
+			}
+
+			.leftContent .collegeDetails p.mottoDetails {
+				max-width:205px;	
+				color: #959595;
+				font-weight:normal;
+				line-height: 18px;
+				margin: 0 0 10px 0;
+			}
+
+			.leftContent .collegeDetails li .clr {
+				float: none;
+				clear: both;
+				border: none;
+				margin: 0px;
+				padding: 0px;
+			}
+
+			.leftContent .leftSideList {
+				float: left;
+				width:210px;
+			}
+
+			.leftContent .leftSideList li{
+       			border-bottom: 1px solid #e5e5ee;
+        		color: #2255aa; 	
+       			font-weight: bold;
+        	}
+
+			.leftContent .leftSideList li a{
+        		display: block;
+        		padding: 6px 0 6px 0;
+        		max-width:210px;
+        		text-decoration:none;
+        		color:#2255aa;
+			}
+
+			.leftContent .leftSideList li a span {
+				line-height:18px;
+			}
+
+			.leftContent .leftSideList li a:hover {
+				color: #000000;
+			}
+
+			.leftContent .leftSideList li:hover .arrow{
+				background: url(../images/icons.png) -445px -2px no-repeat;
+			}
+
+			.leftContent .leftSideList li a i{
+        		float: left;
+        		height: 15px;
+        		width: 15px;
+        		margin: 0 5px 0 3px;
+			}
+
+	 		.leftContent .leftSideList li a i.overview {
+	 			float:left;
+        		background: url(../images/icons.png) -15px -1px no-repeat;
+			}
+
+	 		.leftContent .leftSideList li a i.faculty{
+        		background: url(../images/icons.png) -30px -1px no-repeat;
+			}
+
+			.leftContent .leftSideList li a i.infrastructure  {
+        		background: url(../images/icons.png) -45px -1px no-repeat;
+			}
+
+	 		.leftContent .leftSideList li a i.teaching {
+        		background: url(../images/icons.png) -60px -1px no-repeat;
+			}		
+
+	 		.leftContent .leftSideList li a i.studentExc {
+        		background: url(../images/icons.png) -75px -1px no-repeat;
+			}
+			
+			.leftContent .leftSideList li a i.location {
+        		background: url(../images/icons.png) -90px -1px no-repeat;
+			}
+
+ 			.leftContent .leftSideList li a i.curriculum {
+        		background: url(../images/icons.png) -105px -1px no-repeat;
+			}
+
+ 			.leftContent .leftSideList li a i.globalExp {
+        		background: url(../images/icons.png) -120px -1px no-repeat;
+			}
+
+ 			.leftContent .leftSideList li a i.corporate {
+        		background: url(../images/icons.png) -135px -1px no-repeat;
+			}
+ 			
+ 			.leftContent .leftSideList li a i.alumini {
+        		background: url(../images/icons.png) -150px -1px no-repeat;
+			}
+
+ 			.leftContent .leftSideList li a i.government {
+        		background: url(../images/icons.png) -165px -1px no-repeat;
+			}
+ 			
+ 			.leftContent .leftSideList li a i.placement {
+        		background: url(../images/icons.png) -180px -1px no-repeat;
+			}
+
+ 			.leftContent .leftSideList li a .arrow{
+        		float: right;
+        		height: 15px;
+        		width: 15px;
+        		margin:0 5px 0 0;
+        		background: #ccc;
+       			background: no-repeat url(../images/icons.png) -462px -3px;
+			}
+
+			#content .middleContent {
+				width:460px;
+				float:left
+			}
+
+			.headingStyle {
+				font-size:14px;
+				line-height: 18px;
+				color: #000000;
+				font-weight: bold;
+				background: #ccddff url(../images/icons.png) bottom;
+				padding: 6px 0 6px 10px;
+				margin: 0 0 11px 0;
+				display:block;
+			}
+
+			.middleContent .gallery li {
+				float: left;
+				margin: 0 8px 5px 0;
+			}
+
+			.middleContent .gallery .clr {
+				margin:0px;
+			}
+
+			.middleContent .gallery li img {
+				border: 1px solid #e5e5ee;
+			}
+
+			.middleContent .gallery .clr {
+				float:none;
+				clear:both;	
+			}
+
+			.middleContent .gallery .noMargin{
+				margin:0px;
+			}
+
+			#content .rightContent {
+				width:283px;
+				float:right;
+				border-left: 1px solid #e5e5ee;
+			}
+
+			.rightContent .collegeList {
+				margin: 0 0 0 23px;
+			}
+
+			.rightContent .collegeList .rightListStyle li {
+				margin: 0 0 9px 0 ;
+			}
+
+			.rightContent .collegeList .rightListStyle li a {
+				display:block;
+				text-decoration:none;
+			}
+
+			.rightContent .collegeList .rightListStyle li a .imageSpan {
+				border: 1px solid #e5e5ee;
+				float:left;
+				height:35px;
+				width:35px;
+				margin: 0 8px 0 0;
+				display:block;
+			}
+
+			.rightContent .collegeList .rightListStyle li a:hover .imageSpan {
+				border: 1px solid #2255aa;
+			}
+
+			.rightContent .collegeList .rightListStyle li  a span {
+				line-height:18px;
+				color:#2255aa;
+				text-align:left;
+				text-decoration:none;
+				max-width:282px;	
+			}
+
+			.rightContent .collegeList .rightListStyle li a {
+				text-decoration:none;
+			}
+
+			.rightContent .collegeList .rightListStyle li a:hover span {
+				color: #000000;
+			}
+
+			.rightContent .collegeList .rightListStyle .clr {
+				float:none;
+				clear:both;
+			}
