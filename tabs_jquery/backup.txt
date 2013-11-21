@@ -1,0 +1,38 @@
+/*$(document).ready(function()
+	{
+		$("#tab1").addClass("active");
+		$("#p2").hide();
+		$("#p3").hide();
+		$("#p1").show();
+
+
+
+	$(".tab").click(function() {
+
+		 var id= $(this).attr('id');
+		 if(id=="tab1")
+		 {
+		 	$(".tab").removeClass("active");
+		 	$(this).addClass("active");
+		 	$(".contentClass").hide();
+		 	$("#p1").show();
+		 				 
+		 }
+		 
+		 else if(id=="tab2")
+		 {	
+		 	$(".tab").removeClass("active");
+		 	$(this).addClass("active");
+		 	$(".contentClass").hide();
+		 	$("#p2").show();
+		 				 
+		 }
+		 else
+		 {	
+		 	$(".tab").removeClass("active");
+		 	$(this).addClass("active");
+		 	$(".contentClass").hide();
+		 	$("#p3").show();
+		 }
+	});
+});*/
