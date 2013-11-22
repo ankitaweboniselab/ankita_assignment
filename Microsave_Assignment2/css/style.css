@@ -444,6 +444,10 @@ html, body, div,class ,id, span, applet, object, iframe,
 				color:#ffffff;
 			}
 
+			.leftContent .search a:hover {
+				color:#222222;
+			}
+
 			.tabMenu li.clr {
 				float:none;
 				clear:left;
@@ -476,7 +480,7 @@ html, body, div,class ,id, span, applet, object, iframe,
 				display:block;
 			}
 
-			.tabMenu li.active {
+			.tabMenu li.activeTab {
 				
 				background:-webkit-linear-gradient(top, #ffffff, #ffffff);
 				background:-moz-linear-gradient(top, #ffffff, #ffffff);
@@ -486,7 +490,7 @@ html, body, div,class ,id, span, applet, object, iframe,
 				top:1px;
 			}
 
-			.tabMenu li a.activeText{
+			.tabMenu li a.activeTabText{
 				color:#222222;
 				font-style:italic;
 			}

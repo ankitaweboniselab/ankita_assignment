@@ -3,27 +3,28 @@ $(document).ready(function() {
 
 	
     
-    $("a").click(function(event) 
+    $(".menu li a").click(function(event) 
     { 
-    	$("li").removeClass("active");
-    	$("a").removeClass("activeText");
+    	$(".menu li").removeClass("active");
+    	$(".menu li a").removeClass("activeText");
     	$(this).parent().addClass("active");
     	$(this).addClass("activeText")
-    	var tabId = $(this).attr("href");
+    	var tabId = $(this.hash)/*attr("href");*/
     	$(".contentClass").css("display","none");
     	$(tabId).show();
+        event.preventDefault();
 
     });
 
-    $("a").click(function(event) 
+     $(".tabMenu li a").click(function(event) 
     { 
-        $("li").removeClass("active");
-        $("a").removeClass("activeText");
-        $(this).parent().addClass("active");
-        $(this).addClass("activeText")
+        $(".tabMenu li").removeClass("activeTab");
+        $(".tabMenu li a").removeClass("activeTabText");
+        $(this).parent().addClass("activeTab");
+        $(this).addClass("activeTabText")
         var tabId = $(this).attr("href");
         $(".tabContentClass").css("display","none");
         $(tabId).show();
-    });
-
+         event.preventDefault();
+     });
 });
