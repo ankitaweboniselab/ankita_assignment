@@ -25,6 +25,6 @@ $(document).ready(function() {
         var tabId = $(this).attr("href");
         $(".tabContentClass").css("display","none");
         $(tabId).show();
-         event.preventDefault();
+        event.preventDefault();
      });
 });

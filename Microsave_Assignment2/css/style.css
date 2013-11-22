@@ -105,6 +105,19 @@ html, body, div,class ,id, span, applet, object, iframe,
 
 			}
 
+			.container .nav li.last {
+				background: url('../img/navborder.png'), url('../img/navborder.png');
+				background-position:left bottom, right bottom;
+				background-repeat:no-repeat;
+			}
+
+			.container .nav li.last a:hover{
+				background-color:#ffffff;
+				background-image:url('../img/navborder.png'),url('../img/navborder.png');
+				background-position:left bottom, right bottom;
+				background-repeat:no-repeat;
+			}
+
 			.container .nav li a {
 				display:block;
 				padding: 15px 17px 10px 17px;
@@ -124,10 +137,6 @@ html, body, div,class ,id, span, applet, object, iframe,
 
 			.container .nav li a span.first {
 				color:#000000;	
-			}
-
-			.container .nav li.firstMenu {
-				background-color:#ffffff;
 			}
 
 			.container .nav li a i {
@@ -156,7 +165,7 @@ html, body, div,class ,id, span, applet, object, iframe,
 			.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
 				color:#000000;
 				box-shadow:none;
-				background-color:#ffffff;
+				background: #ffffff url('../img/navborder.png') left no-repeat;
 			}
 
 			.banner {
