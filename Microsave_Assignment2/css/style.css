@@ -279,6 +279,7 @@ html, body, div,class ,id, span, applet, object, iframe,
 			.pdfDownload .pdfClick {
 				display:block;
 				float:left;
+				margin:0 5px 0 0;
 			}
 
 			.pdfDownload i.pdf{
@@ -289,7 +290,7 @@ html, body, div,class ,id, span, applet, object, iframe,
 				padding:2px;	
 				display:block;
 				float:left;
-				margin:0 5px 0 0;
+				
 			}
 
 			.pdfDownload span {
