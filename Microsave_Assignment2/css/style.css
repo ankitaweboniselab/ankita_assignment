@@ -399,7 +399,8 @@ html, body, div,class ,id, span, applet, object, iframe,
 
 			.mainContentBox {
 				margin:0 0 35px 0;
-				box-shadow:0px 4px 0 #f2f2f2 ;
+				box-shadow:0px 4px 0 #f2f2f2;
+				background:url('../img/maincontentbackground.png');
 			}
 
 			.container .mainContentBox {
@@ -410,8 +411,7 @@ html, body, div,class ,id, span, applet, object, iframe,
 			.leftContent {
 				float:left;
 				border-right:1px solid #cccccc;
-				width:640px;
-				box-shadow: 4px 0 0 #f2f2f2;						
+				width:640px;						
 			}
 
 			.leftContent .search {
