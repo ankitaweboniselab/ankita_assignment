@@ -53,15 +53,15 @@ html, body, div,class ,id, span, applet, object, iframe,
 				clear:both;
 			}
 
-			#wrapper {
+			.wrapper {
 
 			}
 
-			#header {
+			.header {
 				box-shadow :0px 1px 4px #0a0b0e;
 			}
 
-			#header .navbar {
+			.header .navbar {
 				position:static;
 			}
 
@@ -77,20 +77,16 @@ html, body, div,class ,id, span, applet, object, iframe,
 				background-repeat:repeat-x;
 			}
 
-			#header .container a.logo {
+			.header .container a.logo {
 				position:absolute;
-				background-color:#ffffff;
-				border-radius:0px 0px 5px 5px;
-				box-shadow:0px 0px 3px #898a8a;
-				background: #ffffff url('../img/microsavelogo.png') center no-repeat;
-				width:172px;
-				height:47px;
+				height:68px;
+				width:221px;
+				background:url('../img/microsavelogo.png') center no-repeat;
 				z-index:200;
 				text-indent:-5000px;
-				padding:9px;
 			}
 
-			#header .container a:hover {
+			.header .container a:hover {
 				text-decoration:none;
 			}
 
@@ -168,12 +164,13 @@ html, body, div,class ,id, span, applet, object, iframe,
 				background: #ffffff url('../img/navborder.png') left no-repeat;
 			}
 
-			.banner {
+			.bannerWrap {
 			
 				background:url('../img/bannerbg.png') repeat;
+				padding-bottom:70px;
 			}
 
-			.banner h1 {
+			.bannerWrap h2 {
 				color:#ffffff;
 				text-align:center;
 				font-size: 28px;
@@ -181,7 +178,7 @@ html, body, div,class ,id, span, applet, object, iframe,
 				margin:55px 0 40px 0;
 			}
 
-			.banner h1 span{
+			.bannerWrap h2 span{
 				color: #faba47;
 				font-style:italic;
 			}
@@ -225,34 +222,31 @@ html, body, div,class ,id, span, applet, object, iframe,
 				color:#3355a9;
 			}
 
-			.span12 {
-				margin-left:0px;
-			}
 
 			.container .slideShow {
 				margin:0 0 30px 0;
-				/*width:940px;*/
+				width:940px;
 			}
 
 			.container .slideShow img {
 				border-radius:6px;
 			}
 
-			.container .sliderImageWrapper {
-				max-height:228px;
+			.container .sliderImgWrap {
+				height:228px;
 				border:1px solid #444444;
 				border-radius:6px;
 				box-shadow: 0px 0px 3px #000000;
 				float:left;
+				margin:0 18px 0 0;
 			}
 
 			.bannerContent {
-				float:right;
-				max-width:360px;
-				margin:0 40px 0 0;
+				float:left;
+				width:360px;
 			}
 
-			.bannerContent h2 {
+			.bannerContent h4 {
 				font-family:Georgia;
 				font-style:italic;
 				font-size:18px;
@@ -271,29 +265,28 @@ html, body, div,class ,id, span, applet, object, iframe,
 				text-align:left;
 			}
 
-			.pdfDownload {
+			.bannerPdfWrap{
+				float:left;
+			}
+
+			.bannerPdfWrap .pdfImg {
 				float:left;
 				margin:5px 25px 0 0;
 			}
 
-			.pdfDownload .pdfClick {
-				display:block;
-				float:left;
-				margin:0 5px 0 0;
-			}
-
-			.pdfDownload i.pdf{
+			.bannerPdfWrap i.pdf{
 				background:#ffffff url('../img/icons.png') -77px -17px no-repeat;
 				height:16px;
 				width:16px;
 				border-radius:5px;
+				margin:0 5px 0 0;
 				padding:2px;	
 				display:block;
 				float:left;
 				
 			}
 
-			.pdfDownload span {
+			 .bannerPdfWrap .pdfImg span {
 				font-size:12px;
 				line-height:20px;
 				color:#cccccc;
@@ -307,7 +300,8 @@ html, body, div,class ,id, span, applet, object, iframe,
 			.download .pdfButton {
 				display:block;
 				float:left;
-				padding:2px 20px 2px 20px;
+				padding:2px 10px;
+				width:95px;
 				background:-webkit-linear-gradient(top, #f5f5f5, #ffffff);
 				background:-moz-linear-gradient(top, #f5f5f5, #ffffff);
 				background:-ms-linear-gradient(top, #f5f5f5, #ffffff);
@@ -325,6 +319,7 @@ html, body, div,class ,id, span, applet, object, iframe,
 			.download i.downloadImage {
 				display:block;
 				float:left;
+				margin:0 8px 0  0;
 				background:url('../img/icons.png') -96px -16px no-repeat;
 				width:20px;
 				height:20px;
@@ -336,6 +331,10 @@ html, body, div,class ,id, span, applet, object, iframe,
 
 			a.pdfDownloadButton {
 				padding:5px 8px 5px 20px;
+			}
+
+			.tabWrap {
+				margin-top:-44px;
 			}
 
 			.tabContent {
@@ -383,7 +382,7 @@ html, body, div,class ,id, span, applet, object, iframe,
 				font-style:italic;
 			}
 
-			.contentClass{
+			.tabContentWrap{
 				display:none;
 				padding:10px;
 				text-align:center;
@@ -393,19 +392,19 @@ html, body, div,class ,id, span, applet, object, iframe,
 				background-color:#ffffff;
 			}
 
-			.contentClass1{
+			.tabContentWrap:first-child {
 				display:inherit;
 			}
 
-			.mainContentBox {
-				margin:0 0 35px 0;
-				box-shadow:0px 4px 0 #f2f2f2;
-				background:url('../img/maincontentbackground.png');
+			.mainContentWrap{
+				margin:0 0 35px 0;		
 			}
 
-			.container .mainContentBox {
+			.mainContentWrap .container {
 				border: 1px solid #cccccc;
 				border-radius:5px;
+				background:url('../img/maincontentbackground.png');
+				box-shadow:0px 4px 0 #f2f2f2;
 			}
 
 			.leftContent {
@@ -444,18 +443,17 @@ html, body, div,class ,id, span, applet, object, iframe,
 				margin:0 4px 0 0;
 			}
 
-			.leftContent .search .btnColor {
+			.leftContent .search .searchBtn {
 				background:-webkit-linear-gradient(top, #3254a9, #264c9d);
 				background:-moz-linear-gradient(top, #3254a9, #264c9d);
 				background:-ms-linear-gradient(top, #3254a9, #264c9d);
+				padding:5px 0;
+				font-style:italic;
+				width:100px;
 			} 
 
 			.leftContent .search a{
 				color:#ffffff;
-			}
-
-			.leftContent .search a:hover {
-				color:#222222;
 			}
 
 			.tabMenu li.clr {
@@ -465,6 +463,8 @@ html, body, div,class ,id, span, applet, object, iframe,
 
 			.tabMenu {
 				margin:0 0 0 30px;
+				position:relative;
+				top:1px;
 			}
 
 			.tabMenu li.tabs {
@@ -496,8 +496,7 @@ html, body, div,class ,id, span, applet, object, iframe,
 				background:-moz-linear-gradient(top, #ffffff, #ffffff);
 				background:-ms-linear-gradient(top, #ffffff, #ffffff);
 				border-radius:5px 5px 0 0;
-				position:relative;
-				top:1px;
+				border-bottom:1px solid #ffffff;
 			}
 
 			.tabMenu li a.activeTabText{
@@ -505,15 +504,15 @@ html, body, div,class ,id, span, applet, object, iframe,
 				font-style:italic;
 			}
 
-			.tabPannelContent {
+			.tabMenuContentWrap {
 				box-shadow: 0px -4px 17px #eaeaea;
 			}
 
-			.tabContentClass{
+			.tabMenuContent{
 				display:none;
 			}
 
-			.tabContentClass li.publicationContent {
+			.tabMenuContent li.recentPublication {
 				padding:10px;
 				padding:22px 19px 19px 19px;
 				border-bottom:1px solid #dddddd;
@@ -523,15 +522,11 @@ html, body, div,class ,id, span, applet, object, iframe,
 				background:-ms-linear-gradient(bottom, #f5f8fb, #ffffff);
 			}
 
-			.tabContentClass li.noBorder {
-				border-top:none;
-			}
-
-			.tabContentClass li.topBorder{
+			.tabMenuContent li:first-child {
 				border-top:1px solid #bdbdbd;
 			}
 
-			.tabContentClass li  .heading {
+			.tabMenuContent li h5{
 				font-size:18px;
 				line-height:24px;
 				color:#222222;
@@ -539,7 +534,7 @@ html, body, div,class ,id, span, applet, object, iframe,
 				font-style:inherit;
 			} 
 
-			.tabContentClass li .author {
+			.tabMenuContent li .author {
 				font-size:14px;
 				line-height:24px;
 				color:#888888;
@@ -548,30 +543,31 @@ html, body, div,class ,id, span, applet, object, iframe,
 				display:block;
 			}
 
-			.tabContentClass li .authorName {
+			.tabMenuContent li .authorName {
 				font-size:14px;
 				line-height:24px;
 				color:#444444;
 				font-style:italic;
 			}
 
-			.tabContentClass li p {
+			.tabMenuContent li p {
 				font-size:14px;
 				line-height:18px;
 				color:#888888;
 				margin:0 0 12px 0;
 			}
 
-			.publicationContent .pdfClick {
+			.pdfWrap .pdfImg {
 				display:block;
 				float:left;
-				margin:3px 5px 0 0;
+				margin:0 5px 0 0;
 			}
 
-			.publicationContent i.pdf {
+			.pdfWrap i.pdf {
 				background:#ffffff url('../img/icons.png') -77px -17px no-repeat;
 				height:16px;
 				width:16px;
+				margin:3px 5px 0 0;
 				border-radius:5px;
 				padding:2px;	
 				display:block;
@@ -579,7 +575,12 @@ html, body, div,class ,id, span, applet, object, iframe,
 				border:1px solid #bdbdbd;
 			}
 
-			.publicationContent .mb {
+			.recentPublication .pdfWrap{
+				float:left;
+			}
+
+
+			.pdfWrap .mb {
 				font-size:12px;
 				line-height:20px;
 				color:#444444;
@@ -587,10 +588,11 @@ html, body, div,class ,id, span, applet, object, iframe,
 				margin:3px 45px 0 0;
 			}
 
-			.tabContentClass li .pdfButton {
+			.tabMenuContent li .pdfWrap .pdfButton {
 				display:block;
 				float:left;
-				padding:2px 20px 2px 20px;
+				padding:2px 10px;
+				width:95px;
 				background:-webkit-linear-gradient(top, #f5f5f5, #ffffff);
 				background:-moz-linear-gradient(bottom, #f5f5f5, #ffffff);
 				background:-ms-linear-gradient(bottom, #f5f5f5, #ffffff);
@@ -598,22 +600,23 @@ html, body, div,class ,id, span, applet, object, iframe,
 				border:1px solid #bdbdbd;
 			}
 
-			.tabContentClass li span {
+			.tabMenuContent li span {
 				color:#3355aa;
 				font-size:14px;
 				line-height:24px;
 				font-style:italic;
 			}
 
-			.tabContentClass li i.downloadImage {
+			.tabMenuContent li .pdfWrap i.downloadImage {
 				display:block;
 				float:left;
+				margin:0 8px 0 0;
 				background:url('../img/icons.png') -98px -16px no-repeat;
 				width:20px;
 				height:20px;
 			}
 
-			.tabContentClass1{
+			.tabContentDisplay{
 				display:inherit;
 			}
 
@@ -650,27 +653,33 @@ html, body, div,class ,id, span, applet, object, iframe,
 				font-family:Times New Roman;
 			}
 
-			.footerImage{
-				background:url('../img/footertopimage.png') center top no-repeat;
-				height:4px;
-				margin:0 0 11px 0;
+			.loadMoreButton span {
+				color:#ffffff;
 			}
 
-			#footer{
+			.loadMore:hover {
+				color:#ffffff;
+			}
+
+			.footer .container {
+				background:url('../img/footertopimage.png') center top no-repeat;
+			}
+
+			.footer{
 				background:url('../img/footerbg.png') repeat;	
 			}
 
-			.footerTop {
+			.footerTopWrap {
 				padding: 0 20px 14px 20px;
-				margin:0 0 7px 0;
+				margin:11px 0 7px 0;
 				background:url('../img/footermiddleborder.png') center bottom no-repeat;
 			}
 
-			.footerTop .leftFooterMenu {
+			.footerTopWrap .leftFooterMenu {
 				float:left;
 			}
 
-			.footerTop .leftFooterMenu li {
+			.footerTopWrap .leftFooterMenu li {
 				float:left;
 				border-right: 1px solid #c2c2c2;
 				margin:0 10px 0 0;
@@ -685,11 +694,11 @@ html, body, div,class ,id, span, applet, object, iframe,
 				border:none;
 			}
 
-			.footerTop .rightFooterMenu {
+			.footerTopWrap .rightFooterMenu {
 				float:right;
 			}
 
-			.footerTop .rightFooterMenu li {
+			.footerTopWrap .rightFooterMenu li {
 				float:left;
 				border-right: 1px solid #c2c2c2;
 				margin:0 10px 0 0;
@@ -700,15 +709,20 @@ html, body, div,class ,id, span, applet, object, iframe,
 				font-style:italic;
 			}
 
+			.footerTopWrap .rightFooterMenu  li.last {
+				margin:0px;
+				padding:0px;
+			}
+
 			.rightFooterMenu li.noRightBorder {
 				border:none;
 			}
 
-			.footerBottom {
+			.footerBottomWrap {
 				margin:0px 20px 17px 20px;
 			}
 
-			.footerBottom span {
+			.footerBottomWrap span {
 				float:left;
 				font-size:13px;
 				line-height:28px;
@@ -717,7 +731,7 @@ html, body, div,class ,id, span, applet, object, iframe,
 				text-shadow: 1px 0 0 #ffffff;
 			}
 
-			.footerBottom .footerBottomRightMenu {
+			.footerBottomWrap .footerBottomRightMenu {
 				float:right;
 				font-size:13px;
 				line-height:28px;
@@ -726,48 +740,43 @@ html, body, div,class ,id, span, applet, object, iframe,
 				text-shadow: 1px 0 0 #ffffff;
 			}
 
-			.footerBottom .footerBottomRightMenu li{
+			.footerBottomWrap .footerBottomRightMenu li{
 				float:left;
 				margin:0 4px 0 0;
 			}
 
-			.footerTop .rightFooterMenu  li.last {
-				margin:0px;
-				padding:0px;
-			}
-
-			.footerBottom .footerBottomRightMenu li a i{
+			.footerBottomWrap .footerBottomRightMenu li a i{
 				height:16px;
 				width:16px;
 				display:block;
 				margin:7px 0 0 0;
 			}
 
-			.footerBottom .footerBottomRightMenu li a{
+			.footerBottomWrap .footerBottomRightMenu li a{
 				display:block;
 			}
 
-			.footerBottom .footerBottomRightMenu li a i.facebook {
+			.footerBottomWrap .footerBottomRightMenu li a i.facebook {
 				background:url('../img/icons.png') -154px -25px no-repeat;
 			}
 
-			.footerBottom .footerBottomRightMenu li a i.facebook:hover {
+			.footerBottomWrap .footerBottomRightMenu li a i.facebook:hover {
 				opacity:0.8;
 			}
 
-			.footerBottom .footerBottomRightMenu li a i.twitter{
+			.footerBottomWrap .footerBottomRightMenu li a i.twitter{
 				background:url('../img/icons.png') -179px -25px no-repeat;
 			}
 
-			.footerBottom .footerBottomRightMenu li a i.twitter:hover {
+			.footerBottomWrap .footerBottomRightMenu li a i.twitter:hover {
 				opacity:0.8;
 			}
 
-			.footerBottom .footerBottomRightMenu li a i.linkedIn{
+			.footerBottomWrap .footerBottomRightMenu li a i.linkedIn{
 				background:url('../img/icons.png') -204px -25px no-repeat;
 			}
 
-			.footerBottom .footerBottomRightMenu li a i.linkedIn:hover {
+			.footerBottomWrap .footerBottomRightMenu li a i.linkedIn:hover {
 				opacity:0.8;
 			}
 

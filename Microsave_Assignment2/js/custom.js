@@ -10,7 +10,7 @@ $(document).ready(function() {
     	$(this).parent().addClass("active");
     	$(this).addClass("activeText")
     	var tabId = $(this.hash)/*attr("href");*/
-    	$(".contentClass").css("display","none");
+    	$(".tabContentWrap").css("display","none");
     	$(tabId).show();
         event.preventDefault();
 
@@ -23,7 +23,7 @@ $(document).ready(function() {
         $(this).parent().addClass("activeTab");
         $(this).addClass("activeTabText")
         var tabId = $(this).attr("href");
-        $(".tabContentClass").css("display","none");
+        $(".tabMenuContent").css("display","none");
         $(tabId).show();
         event.preventDefault();
      });

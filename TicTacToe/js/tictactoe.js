@@ -114,9 +114,10 @@
                 $(".span2").removeClass("btn-primary btn-success x o  value");
                 $(".span2").html("")
 
-              
+               });
 
+               $(".btn3").click(function(){
+                window.close();
 
-               
-       });
+               });
       });
