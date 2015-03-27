@@ -1,0 +1,19 @@
+@font-face {				
+				font-family: Fontawsum;
+				src: url('../fonts/fontawesome-webfont.ttf')
+			}
+
+.searchIcon {
+	position:relative;
+	width:150px;
+}
+
+
+.search:before {
+    font-family: 'Fontawsum';
+    content: "\f002";
+    color: red;
+    position:absolute;
+	right:52px;
+	top:6px;
+}
