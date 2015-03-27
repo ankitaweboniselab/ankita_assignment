@@ -160,3 +160,4 @@ if node.js not installed in your system, then install node.js using following li
 
 3. And run **grunt** command from your project root directory 
 
+![alt tag]("/images/Untitled-1.jpg")
